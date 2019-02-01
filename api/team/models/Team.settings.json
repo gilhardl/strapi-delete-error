@@ -1,0 +1,22 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "team",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "label": {
+      "default": "",
+      "type": "string"
+    },
+    "supporters": {
+      "collection": "supporter",
+      "via": "teams",
+      "dominant": true
+    }
+  }
+}
